@@ -8,6 +8,10 @@
 # testing
 /coverage
 
+# editor specific configs
+.vscode
+.nvimrc
+
 # production
 /build
 
