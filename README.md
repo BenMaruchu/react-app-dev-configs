@@ -1,4 +1,4 @@
-# react-app-configs
+# react-app-dev-configs
 
 This is an opinionated react app development configurations on top of [create-react-app](https://github.com/facebook/create-react-app) generated project.
 
