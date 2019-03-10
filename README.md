@@ -50,7 +50,7 @@ On documenting code functions and code using JSDocs, there are rules configured 
 
 ##### Formating codes
 
-For code formating [prettier](https://github.com/prettier/prettier) have been configured and used.
+For code formating [prettier](https://github.com/prettier/prettier) have been configured in this repo.
 
 ##### Generating release changelog
 
