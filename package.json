@@ -48,7 +48,8 @@
     "extends": ["@commitlint/config-conventional"]
   },
   "lint-staged": {
-    "*.js": ["npm run lint"]
+    "*.{js,jsx}": ["npm run lint", "git add"],
+    "*.{md,html}": ["prettier --write", "git add"]
   },
   "husky": {
     "hooks": {
