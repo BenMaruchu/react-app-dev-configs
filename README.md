@@ -10,11 +10,17 @@ To use this repo just clone it and make sure to change the git origin url so tha
 git clone https://github.com/BenMaruchu/react-app-configs.git $APP_NAME
 ```
 
-Replace `$APP_NAME` with your application name
+- Replace `$APP_NAME` with your application name
+
+- Delete `.git` inside your application directory
+
+```sh
+cd $APP_NAME & rm -rf .git
+```
 
 > Make sure to install all dependencies depending on your favourite package manager.
 
-If you are using npm remember to delete yarn.lock and then run
+- If you are using npm remember to delete yarn.lock and then run
 
 ```sh
 npm install
@@ -22,7 +28,7 @@ npm install
 
 to install all dependencies
 
-If you are using `yarn` just run
+- If you are using `yarn` just run
 
 ```sh
 yarn install
