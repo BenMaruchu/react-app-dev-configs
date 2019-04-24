@@ -1,5 +1,7 @@
 # react-app-dev-configs
 
+[![Build Status](https://travis-ci.org/BenMaruchu/react-app-dev-configs.svg?branch=master)](https://travis-ci.org/BenMaruchu/react-app-dev-configs)
+
 This is an opinionated react app development configurations on top of [create-react-app](https://github.com/facebook/create-react-app) generated project.
 
 ### Usage
