@@ -900,7 +900,7 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@commitlint/cli@^7.5.2", "@commitlint/cli@^7.6.1":
+"@commitlint/cli@^7.6.1":
   version "7.6.1"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-7.6.1.tgz#a93cf995082831999937f6d5ec1a582c8fc0393a"
   integrity sha512-HEJwQ/aK0AOcAwn77ZKbb/GZhlGxBSPhtVp07uoJFVqM12l2Ia2JHA+MTpfHCFdVahKyYGREZgxde6LyKyG8aQ==
@@ -917,7 +917,7 @@
     resolve-from "5.0.0"
     resolve-global "1.0.0"
 
-"@commitlint/config-conventional@^7.5.0":
+"@commitlint/config-conventional@^7.6.0":
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/@commitlint/config-conventional/-/config-conventional-7.6.0.tgz#f3dc66bf39e3b627fdd6f5ac3d0510dd0dd38f94"
   integrity sha512-1Gnv5p3tc1VsEK25oTIRBO86czLtX6s/jeLNPAQRzdCnyEmsxkbx/sfoUJ1dwv7v8W++xckVnnuvdZv2Hp8yCw==
@@ -1031,7 +1031,7 @@
   dependencies:
     find-up "^2.1.0"
 
-"@commitlint/travis-cli@^7.5.2":
+"@commitlint/travis-cli@^7.6.1":
   version "7.6.1"
   resolved "https://registry.yarnpkg.com/@commitlint/travis-cli/-/travis-cli-7.6.1.tgz#9e6d011c2f02d0dd057ad96e00c0e43ecf29712f"
   integrity sha512-oDtO0T0BIJs+nXxubdSaPRVni4RZ9SQA2N7gPDfsSzEVJZMqp23FOX/IO/K3dJS49Q9dbK6wqBl8jmSlva8r1w==
@@ -2791,7 +2791,7 @@ comment-parser@^0.5.4:
   resolved "https://registry.yarnpkg.com/comment-parser/-/comment-parser-0.5.4.tgz#089840b9cccacad2b769b231ed43081d501b9487"
   integrity sha512-0h7W6Y1Kb6zKQMJqdX41C5qf9ITCVIsD2qP2RaqDF3GFkXFrmuAuv5zUOuo19YzyC9scjBNpqzuaRQ2Sy5pxMQ==
 
-commitizen@^3.0.7:
+commitizen@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-3.1.1.tgz#0135c8c68df52ce348d718f79b23eb03b8713918"
   integrity sha512-n5pnG8sNM5a3dS3Kkh3rYr+hFdPWZlqV6pfz6KGLmWV/gsIiTqAwhTgFKkcF/paKUpfIMp0x4YZlD0xLBNTW9g==
@@ -3844,7 +3844,7 @@ eslint-config-airbnb@^17.1.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-prettier@^4.1.0:
+eslint-config-prettier@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-4.3.0.tgz#c55c1fcac8ce4518aeb77906984e134d9eb5a4f0"
   integrity sha512-sZwhSTHVVz78+kYD3t5pCWSYEdVSBR0PXnwjDRsUs8ytIrK8PLXw+6FKp8r3Z7rx4ZszdetWlXYKOHoUrrwPlA==
@@ -3908,7 +3908,7 @@ eslint-plugin-import@2.16.0:
     read-pkg-up "^2.0.0"
     resolve "^1.9.0"
 
-eslint-plugin-import@^2.16.0:
+eslint-plugin-import@^2.17.2:
   version "2.17.2"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.17.2.tgz#d227d5c6dc67eca71eb590d2bb62fb38d86e9fcb"
   integrity sha512-m+cSVxM7oLsIpmwNn2WXTJoReOF9f/CtLMo7qOVmKd1KntBy0hEcuNZ3erTmWjx+DxRO0Zcrm5KwAvI9wHcV5g==
@@ -3925,15 +3925,15 @@ eslint-plugin-import@^2.16.0:
     read-pkg-up "^2.0.0"
     resolve "^1.10.0"
 
-eslint-plugin-jest@^22.4.1:
-  version "22.5.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.5.1.tgz#a31dfe9f9513c6af7c17ece4c65535a1370f060b"
-  integrity sha512-c3WjZR/HBoi4GedJRwo2OGHa8Pzo1EbSVwQ2HFzJ+4t2OoYM7Alx646EH/aaxZ+9eGcPiq0FT0UGkRuFFx2FHg==
+eslint-plugin-jest@^22.6.4:
+  version "22.6.4"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.6.4.tgz#2895b047dd82f90f43a58a25cf136220a21c9104"
+  integrity sha512-36OqnZR/uMCDxXGmTsqU4RwllR0IiB/XF8GW3ODmhsjiITKuI0GpgultWFt193ipN3HARkaIcKowpE6HBvRHNg==
 
-eslint-plugin-jsdoc@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-7.0.0.tgz#3be84633768480c5b22747d0f534575c7b98505c"
-  integrity sha512-Yu9nfWDG5zJWK1l65MYu7GjHPltPdhZz8m6oqD/h2jDxNgSltgqH5irR5kS38F3eTb4zhS7+FaHE8bz1ph7omQ==
+eslint-plugin-jsdoc@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-7.0.2.tgz#d1c1bf04f65c121a50928a87658a7508a7cdd57f"
+  integrity sha512-iqPdJsBy88FLrr8ru69Ab+SKPrjNEQwK2vicGXrBbDA6aia8IRVz2J2LPCfwdyuSxrI91bd4Za1Z57TC5tUp2w==
   dependencies:
     comment-parser "^0.5.4"
     jsdoctypeparser "3.1.0"
@@ -3953,7 +3953,7 @@ eslint-plugin-jsx-a11y@6.2.1, eslint-plugin-jsx-a11y@^6.2.1:
     has "^1.0.3"
     jsx-ast-utils "^2.0.1"
 
-eslint-plugin-prettier@^3.0.1:
+eslint-plugin-prettier@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.0.tgz#8695188f95daa93b0dc54b249347ca3b79c4686d"
   integrity sha512-XWX2yVuwVNLOUhQijAkXz+rMPPoCr7WFiAl8ig6I7Xn+pPVhDhzg4DxHpmbeb0iqjO9UronEA3Tb09ChnFVHHA==
@@ -3978,7 +3978,7 @@ eslint-plugin-react@7.12.4:
     prop-types "^15.6.2"
     resolve "^1.9.0"
 
-eslint-plugin-react@^7.12.4:
+eslint-plugin-react@^7.13.0:
   version "7.13.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.13.0.tgz#bc13fd7101de67996ea51b33873cd9dc2b7e5758"
   integrity sha512-uA5LrHylu8lW/eAH3bEQe9YdzpPaFd9yAJTwTi/i/BKTD7j6aQMKVAdGM/ML72zD6womuSK7EiGtMKuK06lWjQ==
@@ -5181,7 +5181,7 @@ https-browserify@^1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
-husky@^2.0.0:
+husky@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/husky/-/husky-2.3.0.tgz#8b78ed24d763042df7fd899991985d65a976dd13"
   integrity sha512-A/ZQSEILoq+mQM3yC3RIBSaw1bYXdkKnyyKVSUiJl+iBjVZc5LQEXdGY1ZjrDxC4IzfRPiJ0IqzEQGCN5TQa/A==
@@ -6448,7 +6448,7 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@^8.1.5:
+lint-staged@^8.1.7:
   version "8.1.7"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-8.1.7.tgz#a8988bc83bdffa97d04adb09dbc0b1f3a58fa6fc"
   integrity sha512-egT0goFhIFoOGk6rasPngTFh2qDqxZddM0PwI58oi66RxCDcn5uDwxmiasWIF0qGnchHSYVJ8HPRD5LrFo7TKA==
@@ -8508,7 +8508,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^1.16.4:
+prettier@^1.17.1:
   version "1.17.1"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.17.1.tgz#ed64b4e93e370cb8a25b9ef7fef3e4fd1c0995db"
   integrity sha512-TzGRNvuUSmPgwivDqkZ9tM/qTGW9hqDKWOE9YHiyQdixlKbv7kvEqsmDPrcHJTKwthU774TQwZXVtaQ/mMsvjg==
