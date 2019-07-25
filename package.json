@@ -39,18 +39,31 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "lint-staged": {
-    "*.{js,jsx}": ["eslint --fix", "git add"],
-    "*.{md,html}": ["prettier --write", "git add"]
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{md,html}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "husky": {
     "hooks": {
