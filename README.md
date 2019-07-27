@@ -6,7 +6,11 @@ This is an opinionated react app development configurations on top of [create-re
 
 ### Usage
 
-To use this repo just clone it and make sure to change the git origin url so that you won't push you codes by mistake to this repo.
+If you are using github as your hosting site, just click use this template button and let the magic happens.
+
+**or**
+
+you can use this repo by just clone it and make sure not to forget changing git origin url so that you won't push you codes by mistake to this repo.
 
 ```sh
 git clone https://github.com/BenMaruchu/react-app-configs.git $APP_NAME
