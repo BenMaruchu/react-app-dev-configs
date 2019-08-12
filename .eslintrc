@@ -16,13 +16,6 @@
   ],
   "parser": "babel-eslint",
   "rules": {
-    "react/destructuring-assignment": [
-      true,
-    "always",
-    {
-      "ignoreClassFields": true
-    }
-    ],
     "prettier/prettier": "error",
     "react/jsx-filename-extension": [
       1,
