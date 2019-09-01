@@ -6,7 +6,7 @@ This is an opinionated react app development configurations on top of [create-re
 
 ### Usage
 
-If you are using github as your hosting site, just click use this template button and let the magic happens.
+If you are using github as your hosting site, just click `Use this template` button and let the magic happens.
 
 **or**
 
