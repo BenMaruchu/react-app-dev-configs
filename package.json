@@ -13,8 +13,8 @@
     "changelog": "changelog"
   },
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "react-scripts": "3.4.0"
   },
   "devDependencies": {
@@ -23,34 +23,45 @@
     "@commitlint/travis-cli": "^8.3.5",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.1.0",
-    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb": "^18.1.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jest": "^23.7.0",
-    "eslint-plugin-jsdoc": "^21.0.0",
+    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jsdoc": "^22.0.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react": "^7.19.0",
     "generate-changelog": "^1.8.0",
-    "husky": "^4.2.2",
-    "lint-staged": "^10.0.7",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
     "prettier": "^1.19.1"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"],
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"]
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   },
   "lint-staged": {
-    "*.{js,jsx}": ["eslint --fix"],
-    "*.{md,html}": ["prettier --write"]
+    "*.{js,jsx}": [
+      "eslint --fix"
+    ],
+    "*.{md,html}": [
+      "prettier --write"
+    ]
   },
   "husky": {
     "hooks": {
