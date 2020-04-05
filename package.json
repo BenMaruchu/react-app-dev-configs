@@ -33,7 +33,7 @@
     "eslint-plugin-react": "^7.19.0",
     "generate-changelog": "^1.8.0",
     "husky": "^4.2.3",
-    "lint-staged": "^10.0.8",
+    "lint-staged": "^10.1.2",
     "prettier": "^1.19.1"
   },
   "eslintConfig": {
