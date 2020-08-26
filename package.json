@@ -15,26 +15,26 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
-    "@commitlint/config-conventional": "^9.1.1",
-    "@commitlint/travis-cli": "^9.1.1",
-    "commitizen": "^4.1.2",
-    "cz-conventional-changelog": "^3.2.0",
+    "@commitlint/config-conventional": "^9.1.2",
+    "@commitlint/travis-cli": "^9.1.2",
+    "commitizen": "^4.2.1",
+    "cz-conventional-changelog": "^3.2.1",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.20.0",
-    "eslint-plugin-jsdoc": "^30.2.1",
+    "eslint-plugin-jsdoc": "^30.3.0",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react": "^7.20.6",
     "generate-changelog": "^1.8.0",
     "husky": "^4.2.5",
-    "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5"
+    "lint-staged": "^10.2.13",
+    "prettier": "^2.1.1"
   },
   "eslintConfig": {
     "extends": "react-app"
